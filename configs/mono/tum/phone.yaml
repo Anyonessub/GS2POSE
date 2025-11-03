@@ -1,0 +1,17 @@
+inherit_from: "configs/mono/tum/base_config.yaml"
+
+Dataset:
+  dataset_path: "datasets/tum/phone"
+  Calibration:
+    fx: 1897.2
+    fy: 1897.9
+    cx: 967.1
+    cy: 537.5
+    k1: 0.04193105
+    k2: 0.02018199
+    p1: -0.00086533
+    p2: 0.00134363
+    k3: -0.16413132
+    width: 1920
+    height: 1080
+    distorted: False

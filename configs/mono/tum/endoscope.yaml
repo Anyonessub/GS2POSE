@@ -1,0 +1,17 @@
+inherit_from: "configs/mono/tum/base_config.yaml"
+
+Dataset:
+  dataset_path: "datasets/tum/endoscope"
+  Calibration:
+    fx: 797.1
+    fy: 795.9
+    cx: 319.3
+    cy: 265.4
+    k1: 0.252688511
+    k2: -1.34896937
+    p1: 0.0018131616
+    p2: -0.00119304163
+    k3: 0.947097229
+    width: 640
+    height: 480
+    distorted: True

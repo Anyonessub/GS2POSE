@@ -1,0 +1,17 @@
+inherit_from: "configs/mono/tum/base_config.yaml"
+
+Dataset:
+  dataset_path: "datasets/tum/rgbd_dataset_freiburg3_long_office_household"
+  Calibration:
+    fx: 572.4114
+    fy: 573.57043
+    cx: 325.2611
+    cy: 242.04899
+    k1: 0.0
+    k2: 0.0
+    p1: 0.0
+    p2: 0.0
+    k3: 0.0
+    width: 640
+    height: 480
+    distorted: False
