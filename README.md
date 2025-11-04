@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h1 align="center">GSPOSE: Marry Gaussian Splatting to 6D object Pose Estimation</h1>
+  <h1 align="center">GSPOSE: Textureless Object Pose Estimation Guided by Gaussian Splatting</h1>
   <div align="center"></div>
 </p>
 
